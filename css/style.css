@@ -1,0 +1,45 @@
+html,
+body,
+ul,
+li, h1, h2, h3, h4, h5, h5, p {
+  margin: 0;
+  padding: 0;
+}
+html::after,
+body::after,
+ul::after,
+li::after, h1::after, h2::after, h3::after, h4::after, h5::after, h5::after, p::after {
+  margin: 0;
+  padding: 0;
+}
+html::before,
+body::before,
+ul::before,
+li::before, h1::before, h2::before, h3::before, h4::before, h5::before, h5::before, p::before {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1199px) {
+  .wrap {
+    font-size: 30px;
+  }
+}
